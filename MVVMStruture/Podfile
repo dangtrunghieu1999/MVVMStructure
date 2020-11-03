@@ -1,0 +1,7 @@
+platform :ios, '9.0'
+
+target 'MVVMStruture' do
+  use_frameworks!
+  pod 'Kingfisher', '~> 4.0'
+
+end

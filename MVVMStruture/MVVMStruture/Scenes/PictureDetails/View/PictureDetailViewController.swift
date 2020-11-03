@@ -1,18 +1,17 @@
 //
-//  ViewController.swift
+//  PictureDetailViewController.swift
 //  MVVMStruture
 //
-//  Created by Dang Trung Hieu on 11/1/20.
+//  Created by Dang Trung Hieu on 11/3/20.
 //  Copyright © 2020 Dang Trung Hieu. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
-    
+class PictureDetailViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
 }
-
