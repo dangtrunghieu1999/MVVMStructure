@@ -9,7 +9,7 @@
 import UIKit
 
 class PictureListAdapter: NSObject {
-    
+
     let delegate: PictureListProtocol
     
     // MARK: - Constructor
