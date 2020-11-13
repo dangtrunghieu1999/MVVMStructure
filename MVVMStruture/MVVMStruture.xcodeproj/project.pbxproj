@@ -23,6 +23,9 @@
 		CFCD185325514BD30080A040 /* PictureListAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCD185225514BD30080A040 /* PictureListAdapter.swift */; };
 		CFCD1857255151C10080A040 /* PictureListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCD1856255151C10080A040 /* PictureListProtocol.swift */; };
 		CFCD185A255153860080A040 /* PictureListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCD1859255153860080A040 /* PictureListTableViewCell.swift */; };
+		CFE1B37F255E2B91008D2C5D /* LogInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1B37E255E2B91008D2C5D /* LogInViewModel.swift */; };
+		CFE1B382255E2E47008D2C5D /* LogInCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1B381255E2E47008D2C5D /* LogInCoordinator.swift */; };
+		CFE1B38D255E308B008D2C5D /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1B38C255E308B008D2C5D /* LogInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,9 @@
 		CFCD185225514BD30080A040 /* PictureListAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureListAdapter.swift; sourceTree = "<group>"; };
 		CFCD1856255151C10080A040 /* PictureListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureListProtocol.swift; sourceTree = "<group>"; };
 		CFCD1859255153860080A040 /* PictureListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureListTableViewCell.swift; sourceTree = "<group>"; };
+		CFE1B37E255E2B91008D2C5D /* LogInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewModel.swift; sourceTree = "<group>"; };
+		CFE1B381255E2E47008D2C5D /* LogInCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInCoordinator.swift; sourceTree = "<group>"; };
+		CFE1B38C255E308B008D2C5D /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +137,9 @@
 			isa = PBXGroup;
 			children = (
 				CF6DEC04254EA706001920B7 /* ViewController.swift */,
+				CFE1B37E255E2B91008D2C5D /* LogInViewModel.swift */,
+				CFE1B381255E2E47008D2C5D /* LogInCoordinator.swift */,
+				CFE1B38C255E308B008D2C5D /* LogInViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -356,12 +365,15 @@
 			files = (
 				CFCD1857255151C10080A040 /* PictureListProtocol.swift in Sources */,
 				CFCD185025514B430080A040 /* PictureListViewController.swift in Sources */,
+				CFE1B382255E2E47008D2C5D /* LogInCoordinator.swift in Sources */,
 				CFCD185A255153860080A040 /* PictureListTableViewCell.swift in Sources */,
 				CFCD181F25513E680080A040 /* Picture.swift in Sources */,
+				CFE1B37F255E2B91008D2C5D /* LogInViewModel.swift in Sources */,
 				CF6DEC05254EA706001920B7 /* ViewController.swift in Sources */,
 				CF869234254EAD4F00C50E88 /* APIService.swift in Sources */,
 				CFCD185325514BD30080A040 /* PictureListAdapter.swift in Sources */,
 				CF9F39B52551582B00217FEE /* PictureDetailViewController.swift in Sources */,
+				CFE1B38D255E308B008D2C5D /* LogInViewController.swift in Sources */,
 				CFCD182C25513F6E0080A040 /* PictureListViewModel.swift in Sources */,
 				CFCD1835255141C90080A040 /* Enums.swift in Sources */,
 				CF6DEC01254EA706001920B7 /* AppDelegate.swift in Sources */,
