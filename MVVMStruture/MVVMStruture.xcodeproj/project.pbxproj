@@ -9,23 +9,15 @@
 /* Begin PBXBuildFile section */
 		3EDE22BBE267AB07975ADDED /* Pods_MVVMStruture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28843FECB26E9F3A751B7CC5 /* Pods_MVVMStruture.framework */; };
 		CF6DEC01254EA706001920B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6DEC00254EA706001920B7 /* AppDelegate.swift */; };
-		CF6DEC05254EA706001920B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6DEC04254EA706001920B7 /* ViewController.swift */; };
+		CF6DEC05254EA706001920B7 /* PictureListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6DEC04254EA706001920B7 /* PictureListViewController.swift */; };
 		CF6DEC0A254EA707001920B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF6DEC09254EA707001920B7 /* Assets.xcassets */; };
 		CF6DEC0D254EA707001920B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6DEC0B254EA707001920B7 /* LaunchScreen.storyboard */; };
-		CF869234254EAD4F00C50E88 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF869233254EAD4F00C50E88 /* APIService.swift */; };
-		CF9F39B52551582B00217FEE /* PictureDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9F39B42551582B00217FEE /* PictureDetailViewController.swift */; };
-		CFCD181F25513E680080A040 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCD181E25513E680080A040 /* Picture.swift */; };
-		CFCD182C25513F6E0080A040 /* PictureListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCD182B25513F6E0080A040 /* PictureListViewModel.swift */; };
-		CFCD1835255141C90080A040 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCD1834255141C90080A040 /* Enums.swift */; };
-		CFCD1847255142F40080A040 /* fakecontents.json in Resources */ = {isa = PBXBuildFile; fileRef = CFCD1846255142F40080A040 /* fakecontents.json */; };
-		CFCD184B255143270080A040 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFCD184A255143270080A040 /* Main.storyboard */; };
-		CFCD185025514B430080A040 /* PictureListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCD184F25514B430080A040 /* PictureListViewController.swift */; };
-		CFCD185325514BD30080A040 /* PictureListAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCD185225514BD30080A040 /* PictureListAdapter.swift */; };
-		CFCD1857255151C10080A040 /* PictureListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCD1856255151C10080A040 /* PictureListProtocol.swift */; };
-		CFCD185A255153860080A040 /* PictureListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCD1859255153860080A040 /* PictureListTableViewCell.swift */; };
-		CFE1B37F255E2B91008D2C5D /* LogInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1B37E255E2B91008D2C5D /* LogInViewModel.swift */; };
-		CFE1B382255E2E47008D2C5D /* LogInCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1B381255E2E47008D2C5D /* LogInCoordinator.swift */; };
-		CFE1B38D255E308B008D2C5D /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1B38C255E308B008D2C5D /* LogInViewController.swift */; };
+		CFDF2F2F25F4D20800D6B365 /* Pictures.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDF2F2E25F4D20800D6B365 /* Pictures.swift */; };
+		CFDF2F3225F4D36300D6B365 /* PictureListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDF2F3125F4D36300D6B365 /* PictureListViewModel.swift */; };
+		CFDF2F3625F4D44500D6B365 /* FakeAPIServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDF2F3525F4D44500D6B365 /* FakeAPIServiceProtocol.swift */; };
+		CFDF2F3A25F4DA9B00D6B365 /* PictureListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDF2F3925F4DA9B00D6B365 /* PictureListProtocol.swift */; };
+		CFDF2F4225F4DB7D00D6B365 /* PictureListAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDF2F4125F4DB7D00D6B365 /* PictureListAdapter.swift */; };
+		CFDF2F4525F4DC7500D6B365 /* PictureListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDF2F4425F4DC7500D6B365 /* PictureListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,24 +26,16 @@
 		CDA2EA4503ECEA3255DC140C /* Pods-MVVMStruture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMStruture.debug.xcconfig"; path = "Target Support Files/Pods-MVVMStruture/Pods-MVVMStruture.debug.xcconfig"; sourceTree = "<group>"; };
 		CF6DEBFD254EA706001920B7 /* MVVMStruture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMStruture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF6DEC00254EA706001920B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF6DEC04254EA706001920B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF6DEC04254EA706001920B7 /* PictureListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureListViewController.swift; sourceTree = "<group>"; };
 		CF6DEC09254EA707001920B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF6DEC0C254EA707001920B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF6DEC0E254EA707001920B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF869233254EAD4F00C50E88 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
-		CF9F39B42551582B00217FEE /* PictureDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureDetailViewController.swift; sourceTree = "<group>"; };
-		CFCD181E25513E680080A040 /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
-		CFCD182B25513F6E0080A040 /* PictureListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureListViewModel.swift; sourceTree = "<group>"; };
-		CFCD1834255141C90080A040 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
-		CFCD1846255142F40080A040 /* fakecontents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fakecontents.json; sourceTree = "<group>"; };
-		CFCD184A255143270080A040 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		CFCD184F25514B430080A040 /* PictureListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureListViewController.swift; sourceTree = "<group>"; };
-		CFCD185225514BD30080A040 /* PictureListAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureListAdapter.swift; sourceTree = "<group>"; };
-		CFCD1856255151C10080A040 /* PictureListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureListProtocol.swift; sourceTree = "<group>"; };
-		CFCD1859255153860080A040 /* PictureListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureListTableViewCell.swift; sourceTree = "<group>"; };
-		CFE1B37E255E2B91008D2C5D /* LogInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewModel.swift; sourceTree = "<group>"; };
-		CFE1B381255E2E47008D2C5D /* LogInCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInCoordinator.swift; sourceTree = "<group>"; };
-		CFE1B38C255E308B008D2C5D /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		CFDF2F2E25F4D20800D6B365 /* Pictures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pictures.swift; sourceTree = "<group>"; };
+		CFDF2F3125F4D36300D6B365 /* PictureListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureListViewModel.swift; sourceTree = "<group>"; };
+		CFDF2F3525F4D44500D6B365 /* FakeAPIServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeAPIServiceProtocol.swift; sourceTree = "<group>"; };
+		CFDF2F3925F4DA9B00D6B365 /* PictureListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureListProtocol.swift; sourceTree = "<group>"; };
+		CFDF2F4125F4DB7D00D6B365 /* PictureListAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureListAdapter.swift; sourceTree = "<group>"; };
+		CFDF2F4425F4DC7500D6B365 /* PictureListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +91,7 @@
 				CF869236254EAD7800C50E88 /* Support */,
 				CFCD1833255141A50080A040 /* Enums */,
 				CF86922E254EACDF00C50E88 /* APIService */,
-				CF869235254EAD6500C50E88 /* Model */,
-				CF869230254EAD0D00C50E88 /* Scenes */,
+				CF869230254EAD0D00C50E88 /* Features */,
 				CF869232254EAD2500C50E88 /* Controllers */,
 				CF6DEC0E254EA707001920B7 /* Info.plist */,
 			);
@@ -118,28 +101,23 @@
 		CF86922E254EACDF00C50E88 /* APIService */ = {
 			isa = PBXGroup;
 			children = (
-				CFCD181C25513E020080A040 /* FakeContents */,
-				CF869233254EAD4F00C50E88 /* APIService.swift */,
+				CFDF2F3525F4D44500D6B365 /* FakeAPIServiceProtocol.swift */,
 			);
 			path = APIService;
 			sourceTree = "<group>";
 		};
-		CF869230254EAD0D00C50E88 /* Scenes */ = {
+		CF869230254EAD0D00C50E88 /* Features */ = {
 			isa = PBXGroup;
 			children = (
 				CFCD182225513E7E0080A040 /* PictureList */,
 				CFCD182825513EE90080A040 /* PictureDetails */,
 			);
-			path = Scenes;
+			path = Features;
 			sourceTree = "<group>";
 		};
 		CF869232254EAD2500C50E88 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				CF6DEC04254EA706001920B7 /* ViewController.swift */,
-				CFE1B37E255E2B91008D2C5D /* LogInViewModel.swift */,
-				CFE1B381255E2E47008D2C5D /* LogInCoordinator.swift */,
-				CFE1B38C255E308B008D2C5D /* LogInViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -147,7 +125,7 @@
 		CF869235254EAD6500C50E88 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				CFCD181E25513E680080A040 /* Picture.swift */,
+				CFDF2F2E25F4D20800D6B365 /* Pictures.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -158,26 +136,18 @@
 				CF6DEC00254EA706001920B7 /* AppDelegate.swift */,
 				CF6DEC09254EA707001920B7 /* Assets.xcassets */,
 				CF6DEC0B254EA707001920B7 /* LaunchScreen.storyboard */,
-				CFCD184A255143270080A040 /* Main.storyboard */,
 			);
 			path = Support;
-			sourceTree = "<group>";
-		};
-		CFCD181C25513E020080A040 /* FakeContents */ = {
-			isa = PBXGroup;
-			children = (
-				CFCD1846255142F40080A040 /* fakecontents.json */,
-			);
-			path = FakeContents;
 			sourceTree = "<group>";
 		};
 		CFCD182225513E7E0080A040 /* PictureList */ = {
 			isa = PBXGroup;
 			children = (
+				CF869235254EAD6500C50E88 /* Model */,
 				CFCD182325513E870080A040 /* View */,
-				CFCD182425513E8C0080A040 /* Protocols */,
 				CFCD182725513EAE0080A040 /* ViewModel */,
-				CFCD182525513E9F0080A040 /* Adapter */,
+				CFCD182425513E8C0080A040 /* Protocols */,
+				CFDF2F3C25F4DAFC00D6B365 /* Adapter */,
 				CFCD182625513EA70080A040 /* Cell */,
 			);
 			path = PictureList;
@@ -186,7 +156,7 @@
 		CFCD182325513E870080A040 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CFCD184F25514B430080A040 /* PictureListViewController.swift */,
+				CF6DEC04254EA706001920B7 /* PictureListViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -194,23 +164,15 @@
 		CFCD182425513E8C0080A040 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				CFCD1856255151C10080A040 /* PictureListProtocol.swift */,
+				CFDF2F3925F4DA9B00D6B365 /* PictureListProtocol.swift */,
 			);
 			path = Protocols;
-			sourceTree = "<group>";
-		};
-		CFCD182525513E9F0080A040 /* Adapter */ = {
-			isa = PBXGroup;
-			children = (
-				CFCD185225514BD30080A040 /* PictureListAdapter.swift */,
-			);
-			path = Adapter;
 			sourceTree = "<group>";
 		};
 		CFCD182625513EA70080A040 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				CFCD1859255153860080A040 /* PictureListTableViewCell.swift */,
+				CFDF2F4425F4DC7500D6B365 /* PictureListTableViewCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -218,7 +180,7 @@
 		CFCD182725513EAE0080A040 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				CFCD182B25513F6E0080A040 /* PictureListViewModel.swift */,
+				CFDF2F3125F4D36300D6B365 /* PictureListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -234,7 +196,6 @@
 		CFCD182925513EF80080A040 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CF9F39B42551582B00217FEE /* PictureDetailViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -242,9 +203,16 @@
 		CFCD1833255141A50080A040 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
-				CFCD1834255141C90080A040 /* Enums.swift */,
 			);
 			path = Enums;
+			sourceTree = "<group>";
+		};
+		CFDF2F3C25F4DAFC00D6B365 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				CFDF2F4125F4DB7D00D6B365 /* PictureListAdapter.swift */,
+			);
+			path = Adapter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +244,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1210;
 				ORGANIZATIONNAME = "Dang Trung Hieu";
 				TargetAttributes = {
 					CF6DEBFC254EA706001920B7 = {
@@ -309,8 +277,6 @@
 			files = (
 				CF6DEC0D254EA707001920B7 /* LaunchScreen.storyboard in Resources */,
 				CF6DEC0A254EA707001920B7 /* Assets.xcassets in Resources */,
-				CFCD1847255142F40080A040 /* fakecontents.json in Resources */,
-				CFCD184B255143270080A040 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,19 +329,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFCD1857255151C10080A040 /* PictureListProtocol.swift in Sources */,
-				CFCD185025514B430080A040 /* PictureListViewController.swift in Sources */,
-				CFE1B382255E2E47008D2C5D /* LogInCoordinator.swift in Sources */,
-				CFCD185A255153860080A040 /* PictureListTableViewCell.swift in Sources */,
-				CFCD181F25513E680080A040 /* Picture.swift in Sources */,
-				CFE1B37F255E2B91008D2C5D /* LogInViewModel.swift in Sources */,
-				CF6DEC05254EA706001920B7 /* ViewController.swift in Sources */,
-				CF869234254EAD4F00C50E88 /* APIService.swift in Sources */,
-				CFCD185325514BD30080A040 /* PictureListAdapter.swift in Sources */,
-				CF9F39B52551582B00217FEE /* PictureDetailViewController.swift in Sources */,
-				CFE1B38D255E308B008D2C5D /* LogInViewController.swift in Sources */,
-				CFCD182C25513F6E0080A040 /* PictureListViewModel.swift in Sources */,
-				CFCD1835255141C90080A040 /* Enums.swift in Sources */,
+				CFDF2F3A25F4DA9B00D6B365 /* PictureListProtocol.swift in Sources */,
+				CFDF2F2F25F4D20800D6B365 /* Pictures.swift in Sources */,
+				CFDF2F3225F4D36300D6B365 /* PictureListViewModel.swift in Sources */,
+				CF6DEC05254EA706001920B7 /* PictureListViewController.swift in Sources */,
+				CFDF2F4525F4DC7500D6B365 /* PictureListTableViewCell.swift in Sources */,
+				CFDF2F4225F4DB7D00D6B365 /* PictureListAdapter.swift in Sources */,
+				CFDF2F3625F4D44500D6B365 /* FakeAPIServiceProtocol.swift in Sources */,
 				CF6DEC01254EA706001920B7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +380,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -444,7 +405,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -480,6 +441,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -498,7 +460,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
